@@ -1,4 +1,4 @@
-body { background:white;
+body { background:#bdd2b6;
   margin: 0;
   font-family: sans-serif;
 }
@@ -10,12 +10,12 @@ textarea{
   left:400px;
   background:#f4f9f4;
   height:1650px;
-  width:1150px;
+  width:750px;
   z-index:-2;
 }
 .Primary {
-   position: absolute;
-   top:350px;
+   position:absolute;
+   top:0;
     height:auto;
     width:750px;
 }
@@ -55,9 +55,8 @@ left:10%;
 }
   .Secondary{
     position:absolute;
-    top:0;
-    left:400px;
-    background: red;
+    top:700px;
+    /* left:400px; */
     height:auto;
     width:750px;
     z-index:-1;
@@ -91,6 +90,10 @@ margin:10px auto 0 auto;
 }
 .secondary-3-1{
 margin-left: 150px;
+}
+.Tertiary{
+  position:absolute;
+  top:2000px;
 }
 .fontsize{
   font-size: 0.55rem;
